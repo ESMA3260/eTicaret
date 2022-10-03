@@ -1,0 +1,199 @@
+<!ductype html>
+<html>
+   <head>
+    <meta charset="utf-8">
+      
+      <style>
+          *{
+              padding: 0;
+              margin: 0;
+          }
+          #one{
+              position: relative;
+          }
+          
+          .top{
+              width: 100%;
+              height: 70px;
+              background: teal;
+          }
+          
+           .bottom{
+              width: 100%;
+              height: 70px;
+              background-color: aquamarine;
+          }
+          
+           .center{
+              width: 60%;
+              background-color: #333;
+               position: absolute;
+               top: 50px;
+               left: 50%;
+               transform: translateX(-50%);
+               display: flex;
+            justify-content: space-around;
+          }
+          
+          .center a{
+              color: #fff;
+              padding: 15px 25px;
+          }
+          
+         
+         a.btn{
+              color: #333;
+              background-color: greenyellow;
+              transform: skewX(30deg);
+          }
+          .two{
+              width: 100%;
+              height: 500px;
+              background: #333;
+              background-image: url(img/bruno-van-der-kraan-VRERJ5Mjp4c-unsplash.jpg);
+              background-size: cover;
+              position: relative;
+              
+          }
+          .two img{
+              position: absolute;
+              bottom: 0;
+              left: 70%;
+              width: 250px;
+          }
+       
+          .two .header-content{
+              position: absolute;
+              top: 30%;
+              left: 10%;
+          }
+          .two .header-content h1{
+              color: #fff;
+              font-size: 50px;
+              margin-bottom: 15px;
+              text-shadow: 10px 10px 10px #333;
+          }
+          .two .header-content button{
+              background-color: greenyellow;
+              padding: 12px 25px;
+              font-weight: bold;
+              font-size: 16px;
+              color: teal;
+              
+              
+          }
+          .two .header-content button:hover{
+              background: transparent;
+              border-radius: 80px;
+              color: #fff;
+              
+          }
+      
+           #three{
+              padding: 70px 0;
+              display: flex;
+              background-color: beige;
+              justify-content: space-around;
+             
+          }
+         .div11{flex-basis: 30%;
+              background-color:aquamarine;
+             margin-top: 50px;
+              border-radius: 50px;
+              text-align: center;
+              box-sizing: border-box;
+             
+          
+            
+          }
+          
+          .div11 img{
+              object-fit: cover;
+              width: 100%;
+              border-radius: 80px;
+              height: 300px;
+              
+          }
+          .adress{
+              position: absolute;
+              width: 100%;
+              height: 50px;
+              background-color: antiquewhite;
+              color: teal;
+              font-size: 30px;
+              margin-bottom: 45px;
+              text-shadow: 10px 10px 10px #333;
+              text-align: center;
+              
+              
+          }
+       
+          
+          @media screen and (max-width:700px) {
+              .center{
+                  width: 100%;
+              }
+              .center a{
+                  padding: 15px ;
+              }
+              
+              .two img{
+              position: absolute;
+              bottom: 0;
+              left: 60%;
+              width: 150px;
+          }
+           
+          } 
+       </style>
+       
+     </head>
+    <body>
+  
+        <section id="one">
+      
+            <div class="top"> </div>
+            
+              <div class="bottom"> </div>
+              
+                <div class="center">
+                <a href="home.html" >Home</a>
+                <a href="about.html" >About</a>
+                <a href="project.html" >Project</a>
+                <a href="contect.html" >contect</a>
+                <a href="go.html"class="btn" >go to</a>
+                </div>
+                
+           
+        </section>
+        <section class="two">
+            <img src="img/logo.png">
+            <div class="header-content">
+                <h1>Rolex Watch</h1>
+                <button>Read More</button>
+            </div>
+        </section>
+         
+      
+         <section id="three">
+          <div class="adress">Our products</div>
+          
+          <div class="div11"> <img src="img/watch.jpeg">
+            
+             <h1> watch 1</h1>
+                <p>Hello to our site</p>
+            
+            </div>
+            <div class="div11"> <img src="img/watch1.jpeg">
+            <h1> watch 2</h1>
+            <p>  Hello to our site</p>
+            </div>
+            <div class="div11"> <img src="img/watch4.jpeg">
+            <h1> watch 3</h1>
+            <p> Hello to our site</p>
+            </div>
+           
+        </section>
+    </body>
+
+</html>
